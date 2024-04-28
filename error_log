@@ -1,0 +1,35 @@
+[05-Oct-2023 07:39:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin-vimak'@'localhost' (using password: YES) in /home/vimakinf/public_html/config.php:7
+Stack trace:
+#0 /home/vimakinf/public_html/config.php(7): mysqli_connect('localhost', 'admin-vimak', 'Marley#Vimaklab...', 'vimakinf_vimak')
+#1 /home/vimakinf/public_html/index.php(107): require('/home/vimakinf/...')
+#2 {main}
+  thrown in /home/vimakinf/public_html/config.php on line 7
+[05-Oct-2023 07:40:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin-vimak'@'localhost' (using password: YES) in /home/vimakinf/public_html/config.php:7
+Stack trace:
+#0 /home/vimakinf/public_html/config.php(7): mysqli_connect('localhost', 'admin-vimak', 'Marley#Vimaklab...', 'vimakinf_vimak')
+#1 /home/vimakinf/public_html/index.php(107): require('/home/vimakinf/...')
+#2 {main}
+  thrown in /home/vimakinf/public_html/config.php on line 7
+[05-Oct-2023 07:41:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin-vimak'@'localhost' (using password: YES) in /home/vimakinf/public_html/config.php:7
+Stack trace:
+#0 /home/vimakinf/public_html/config.php(7): mysqli_connect('localhost', 'admin-vimak', 'Marley#Vimaklab...', 'vimakinf_vimak')
+#1 /home/vimakinf/public_html/index.php(107): require('/home/vimakinf/...')
+#2 {main}
+  thrown in /home/vimakinf/public_html/config.php on line 7
+[05-Oct-2023 07:44:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin-vimak'@'localhost' (using password: YES) in /home/vimakinf/public_html/db_conn.php:9
+Stack trace:
+#0 /home/vimakinf/public_html/db_conn.php(9): mysqli_connect('localhost', 'admin-vimak', 'Marley#Vimaklab...', 'admin_db')
+#1 /home/vimakinf/public_html/login.php(3): include('/home/vimakinf/...')
+#2 {main}
+  thrown in /home/vimakinf/public_html/db_conn.php on line 9
+[05-Oct-2023 07:48:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'vimakinf_admin_db.users' doesn't exist in /home/vimakinf/public_html/login.php:30
+Stack trace:
+#0 /home/vimakinf/public_html/login.php(30): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 {main}
+  thrown in /home/vimakinf/public_html/login.php on line 30
+[05-Oct-2023 07:58:32 UTC] PHP Warning:  Undefined array key "product_name" in /home/vimakinf/public_html/pay.php on line 2
+[05-Oct-2023 07:58:32 UTC] PHP Warning:  Undefined array key "product_price" in /home/vimakinf/public_html/pay.php on line 3
+[05-Oct-2023 07:59:12 UTC] PHP Warning:  Undefined array key "product_name" in /home/vimakinf/public_html/pay.php on line 2
+[05-Oct-2023 07:59:12 UTC] PHP Warning:  Undefined array key "product_price" in /home/vimakinf/public_html/pay.php on line 3
+[05-Oct-2023 08:00:44 UTC] PHP Warning:  Undefined array key "product_name" in /home/vimakinf/public_html/pay.php on line 2
+[05-Oct-2023 08:00:44 UTC] PHP Warning:  Undefined array key "product_price" in /home/vimakinf/public_html/pay.php on line 3
